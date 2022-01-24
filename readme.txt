@@ -20,7 +20,7 @@ Steps for installation and use.
 }
 
 7. To delete user call sitename.com/api/delete_resume
- pass the id of the resume i.e the node id
+ pass the id of the resume i.e the node id (nid) { "nid": "some_nid"}
 
 8. To fetch a single resume call sitename.com/api/fetch_resume
   Pass the id of the resume( nid )
