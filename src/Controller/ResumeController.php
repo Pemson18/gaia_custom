@@ -3,14 +3,12 @@
 * @file
 * Contains \Drupal\gaia_custom\Controller\ResumeController.
 */
-namespace Drupal\resumes\Controller;
+namespace Drupal\gaia_custom\Controller;
 use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Drupal\user\Entity\User;
 use Drupal\node\Entity\Node;
-use Drupal\Core\Entity;
-use Drupal\taxonomy\Entity\Term;
 
 //Controller routines for resumes routes
 
