@@ -1,34 +1,34 @@
 get_resume:
   path: 'api/get_resume'
-  defaults: { _controller: '\Drupal\gaia_custom\Controller\CandidatesController::get_resume' }
+  defaults: { _controller: '\Drupal\gaia_custom\Controller\ResumeController::get_resume' }
   methods: [POST]
   requirements:
     _permission: 'access content'
 
 add_resume:
   path: 'api/add_resume'
-  defaults: { _controller: '\Drupal\gaia_custom\Controller\CandidatesController::add_resume' }
+  defaults: { _controller: '\Drupal\gaia_custom\Controller\ResumeController::add_resume' }
   methods: [POST]
   requirements:
     _permission: 'access content'
 
 edit_resume:
   path: 'api/edit_resume'
-  defaults: { _controller: '\Drupal\gaia_custom\Controller\CandidatesController::edit_resume' }
+  defaults: { _controller: '\Drupal\gaia_custom\Controller\ResumeController::edit_resume' }
   methods: [POST]
   requirements:
     _permission: 'access content'
 
 delete_resume:
   path: 'api/delete_resume'
-  defaults: { _controller: '\Drupal\gaia_custom\Controller\CandidatesController::delete_resume' }
+  defaults: { _controller: '\Drupal\gaia_custom\Controller\ResumeController::delete_resume' }
   methods: [POST]
   requirements:
     _permission: 'access content'
 
 fetch_resume:
   path: 'api/fetch_resume'
-  defaults: { _controller: '\Drupal\gaia_custom\Controller\CandidatesController::fetch_resume' }
+  defaults: { _controller: '\Drupal\gaia_custom\Controller\ResumeController::fetch_resume' }
   methods: [POST]
   requirements:
     _permission: 'access content'
